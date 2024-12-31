@@ -5,9 +5,9 @@ const LeftToRight = () => {
   return (
     <div>
       <motion.div
-        initial={{ x: -100, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ type: "spring", duration: 1 }}
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ type: "spring", duration: 5 }}
         className=" "
       >
         Slide In Animation
