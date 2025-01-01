@@ -18,53 +18,11 @@ function ScrollReveal() {
       initial="hidden"
       animate={controls}
       variants={{
-        visible: { opacity: 1, scale: 1 },
-        hidden: { opacity: 0, scale: 0.8 },
+        visible: { opacity: 1, x: 0 },
+        hidden: { opacity: 0, x: -100 },
       }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
     >
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
-      Scroll to Reveal Me! <br />
       Scroll to Reveal Me! <br />
       Scroll to Reveal Me! <br />
       Scroll to Reveal Me! <br />

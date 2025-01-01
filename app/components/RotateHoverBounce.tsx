@@ -13,7 +13,7 @@ const RotateHoverBounce = () => {
       </motion.p>
       <hr />
       <motion.div
-        animate={{ y: [0, -20, 0] }}
+        animate={{ y: [0, -100, 0] }}
         transition={{ duration: 0.5, repeat: Infinity }}
       >
         Deeksha
