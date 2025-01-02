@@ -20,7 +20,7 @@ const UseAnimationControls = () => {
             rotate: 90,
           },
         }}
-        className="bg-white h-16 w-16 mx-auto m-10 "
+        className="bg-black h-16 w-16 mx-auto m-10 "
       ></motion.div>
     </div>
   );
