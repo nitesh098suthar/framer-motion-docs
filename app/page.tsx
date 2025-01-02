@@ -8,6 +8,7 @@ import ScaleAnimation from "./components/ScaleAnimation";
 import ScrollReveal from "./components/ScrollReveal";
 import SR from "./components/SR";
 import StaggeredTextAnimation from "./components/StaggeredTextAnimation";
+import UseAnimationControls from "./components/UseAnimationControls";
 
 export default function Example() {
   return (
@@ -69,6 +70,7 @@ export default function Example() {
       </div>
       <ScrollReveal />
       <SR />
+      <UseAnimationControls />
     </>
   );
 }
