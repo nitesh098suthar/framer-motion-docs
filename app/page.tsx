@@ -10,15 +10,25 @@ import ScrollReveal from "./components/ScrollReveal";
 import SR from "./components/SR";
 import StaggeredTextAnimation from "./components/StaggeredTextAnimation";
 import UseAnimationControls from "./components/UseAnimationControls";
-
+import TextParallaxAnimation from "./components/TextParallaxAnimation";
+import { useEffect } from "react";
+import Lenis from "lenis";
 export default function Example() {
   const { scrollYProgress } = useScroll();
 
+  useEffect(() => {
+    const lenis = new Lenis();
+    function raf(time: any) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+  }, []);
   return (
     <div>
       <motion.div
         style={{ scaleX: scrollYProgress, transformOrigin: "left" }}
-        className="h-4 w-full bg-slate-600 sticky top-0"
+        className="h-4 w-full bg-teal-600 sticky top-0"
       />
       <BasicFade />
       <LeftToRight />
@@ -78,6 +88,8 @@ export default function Example() {
       <ScrollReveal />
       <SR />
       <UseAnimationControls />
+      <hr className="my-4" />
+      <TextParallaxAnimation />
       <Footer />
     </div>
   );
